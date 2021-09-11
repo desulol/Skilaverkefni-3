@@ -14,12 +14,12 @@ public class Fri {
         char dayInitial = args[0].charAt(0);
 
         switch (dayInitial){
-            case 'M':  System.out.println("Virkur dagur"); break;
-            case 'Þ':  System.out.println("Virkur dagur"); break;
-            case 'I':  System.out.println("Virkur dagur"); break;
-            case 'F':  System.out.println("Virkur dagur"); break;
-            case 'Ö':  System.out.println("Virkur dagur"); break;
-            case 'L':  System.out.println("Virkur dagur"); break;
+            case 'M':
+            case 'Þ':
+            case 'I':
+            case 'F':
+            case 'Ö':
+            case 'L':
             case 'S':  System.out.println("Virkur dagur"); break;
 
             default: System.out.print("Villa í inntaki");
