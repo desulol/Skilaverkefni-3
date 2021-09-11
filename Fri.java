@@ -1,5 +1,3 @@
-import java.util.InputMismatchException;
-
 /******************************************************************************
  *  Nafn    : Ásgeir Tómas Guðmundsson
  *  T-póstur: asgeiir93@gmail.com
