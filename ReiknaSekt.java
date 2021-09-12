@@ -20,16 +20,14 @@ public class ReiknaSekt {
         double speedLimit = Double.parseDouble(args[0]);
         double speedOfCar = Double.parseDouble(args[1]);
         double speedOverLimit = speedOfCar - speedLimit;
-        int fineBasePerKm;
 
-        if (speedLimit <=30) {
-            fineBasePerKm = 5_000;
-        }
-        else if (speedLimit <=60){
+        int fineBasePerKm = 5_000;
+
+        if (speedLimit >=31 && speedLimit <=60) {
             fineBasePerKm = 10_000;
         }
-        else {
-            fineBasePerKm = 15_000;
+        else if (speedLimit >60){
+            fineBasePerKm = 10_000;
         }
 
         double totalFine = speedOverLimit * fineBasePerKm;
