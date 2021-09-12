@@ -21,9 +21,9 @@ public class Fri {
             case 'Þ':
             case 'I':
             case 'F':
-            case 'Ö':
+            case 'Ö': System.out.println("Virkur dagur"); break;
             case 'L':
-            case 'S':  System.out.println("Virkur dagur"); break;
+            case 'S': System.out.println("Helgi"); break;
 
             default: System.out.print("Villa í inntaki");
             break;
