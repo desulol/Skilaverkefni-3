@@ -27,7 +27,7 @@ public class ReiknaSekt {
             fineBasePerKm = 10_000;
         }
         else if (speedLimit >60){
-            fineBasePerKm = 10_000;
+            fineBasePerKm = 15_000;
         }
 
         double totalFine = speedOverLimit * fineBasePerKm;
