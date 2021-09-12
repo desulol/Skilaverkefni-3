@@ -2,10 +2,13 @@
  *  Nafn    : Ásgeir Tómas Guðmundsson
  *  T-póstur: asgeiir93@gmail.com
  *
- *  Lýsing  : Tekur inn bókstaf og prentar út "Virkur dagur" ef bókstafurinn er
- *            'M''Þ''I''F''Ö' og "Helgi" ef bókstafurinn er 'L' eða 'S'.
- *            Auk þess prentar það "Villa í inntaki" ef eitthvað annað er
- *            slegið inn
+ *  Lýsing  : Tekur inn bókstaf.
+ *            Ef bókstafurinn er; 'M''Þ''I''F''Ö' ;prentar:
+ *            "Virkur dagur"
+ *            Ef bókstafurinn er; 'L' 'S' ;prentar:
+ *            "Helgi"
+ *            Ef eitthvað annað er slegið inn prentar það:
+ *            "Villa í inntaki"
  *
  *****************************************************************************/
 public class Fri {
