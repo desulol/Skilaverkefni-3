@@ -23,7 +23,7 @@ public class ReiknaSekt {
 
         int fineBasePerKm = 5_000;
 
-        if (speedLimit >=31 && speedLimit <=60) {
+        if (speedLimit >30 && speedLimit <=60) {
             fineBasePerKm = 10_000;
         }
         else if (speedLimit >60){
