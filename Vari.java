@@ -34,7 +34,7 @@ public class Vari {
         char carTwoLane = args[1].charAt(0);
         int carTwoDistance = Integer.parseInt(args[2]);
 
-        if (carTwoDistance > 3 || carTwoDistance < -3) {
+        if (carTwoDistance >= 4 || carTwoDistance <= -4) {
             System.out.println("Engin hætta: of langt í burtu");
         }
         else if (carOneIndicator != carTwoLane){
